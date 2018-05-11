@@ -181,6 +181,11 @@ public class teste extends javax.swing.JFrame {
         jTabbedPane1.addTab("Principal", jPanel1);
 
         jButton3.setText("Limpar");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jButton4.setText("Sair");
 
@@ -286,6 +291,11 @@ public class teste extends javax.swing.JFrame {
         jTabbedPane1.addTab("Secundário", jPanel2);
 
         jButton5.setText("Limpar");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
 
         jButton6.setText("Sair");
 
@@ -414,7 +424,11 @@ public class teste extends javax.swing.JFrame {
         jTextField5.setText("");
         jTextField6.setText("");
         jTextField7.setText("");
-        jTextField8.setText("");
+        jTextField8.setText("");    
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        //Limpar Secundário
         jTextField9.setText("");
         jTextField10.setText("");
         jTextField11.setText("");
@@ -423,6 +437,10 @@ public class teste extends javax.swing.JFrame {
         jTextField14.setText("");
         jTextField15.setText("");
         jTextField16.setText("");
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        //Limpar Tempo Livre
         jTextField17.setText("");
         jTextField18.setText("");
         jTextField19.setText("");
@@ -431,7 +449,7 @@ public class teste extends javax.swing.JFrame {
         jTextField22.setText("");
         jTextField23.setText("");
         jTextField24.setText("");
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
